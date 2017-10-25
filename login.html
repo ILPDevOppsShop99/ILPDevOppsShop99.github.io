@@ -8,7 +8,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Dev Ops Shop</title>
         <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Satisfy" rel="stylesheet">
        <link href="Main.css" rel="stylesheet">
+       <style>
+          #label
+          {
+            font-family: 'Satisfy', cursive;
+          }
+          h2
+          {
+            font-family: 'Permanent Marker', cursive;
+          }
+            form
+            {
+             width:30%;
+             margin-left:auto;
+             margin-right:auto;
+             margin-top:200px;
+            height:250px;
+        
+            }
+            fieldset
+            {
+              background-color:#fff;
+                  border:0px solid #000;
+            border-radius:15px;
+            }
+       </style>
 </head>
 <body>
        <div id="header">
@@ -24,6 +50,27 @@
        </div>
        </div>
        <div id = "content">
+                        <form id="form" name="form" method="post" >
+                        <fieldset>
+                          <center>
+                              <h2>LOGIN</h2>
+                          
+                              
+                                
+                               <label id="label">Email:</label>
+                              <br>
+                              <input type="email" id="Email"/>
+                                <br>  <br>
+                                
+                               <label id="label">Password:</label>
+                              <br>
+                              <input type="password" id="Password"/>
+                                <br>  <br>
+                              <input type="submit">
+                              <br><br>  
+                              </center>
+                              </fieldset>
+                        </form>
        </div>
        <div id = "footer">
        <div id="footertext">&copy; All Rights Reserved @ TCS</div>
