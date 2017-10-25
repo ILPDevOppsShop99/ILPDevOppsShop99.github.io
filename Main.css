@@ -1,0 +1,89 @@
+             body
+             {
+              background-color:	#FFF8DC;
+                    
+             }
+              h1
+              {
+                  text-align:center;
+                     color:#ffffff;
+                    font-family: 'Fascinate Inline', cursive;
+                    margin:0px;
+                    padding:0px;
+                    font-size:100px;
+              }
+              #header
+              {
+                background-color:#006690;
+                      
+                     height:360px;
+                      width:100%;
+                      margin-left:auto;
+                      margin-right:auto;
+                      border:0px solid #000000;
+                      border-radius:15px;
+              }
+              #content
+              {
+              //  background-color:#016670;
+                     margin-top:20px; 
+                     height:620px;
+                      width:100%;
+                      margin-left:auto;
+                      margin-right:auto;
+                     // border:0px solid #000000;
+                     // border-radius:15px;
+              }
+              #footer
+              {
+                background-color:#006690;
+                          margin-top:20px; 
+                     height:90px;
+                      width:100%;
+                      margin-left:auto;
+                      margin-right:auto;
+                      border:0px solid #000000;
+                      border-radius:15px;
+              }
+            ul
+            {
+              list-style-type:none;
+               padding:0px;
+               margin-top:168px;
+                     overflow:hidden;
+               background-color:	#8A2BE2;
+               border: 1px solid #000
+               ;
+               border-radius:15px;
+            }
+           li 
+           {
+             float:left;
+             margin-left:70px;
+          
+            }
+          li a
+             {
+                display: block;
+               color: #ffffff;
+               text-align: center;
+               padding: 14px 100px;
+               text-decoration: none;
+             }
+            a:hover
+             {
+               color:	#000;	
+               background-color:#ffffff;
+               border:1px solid #000000;
+               border-radius:7px;
+              // font-size:20px;
+             }
+             #footertext
+             {
+               color:#fff;
+               text-align:center;
+               width:100%;
+            
+               //position:relative;
+               //margin-top:60px;
+             }
